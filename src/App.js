@@ -1,9 +1,10 @@
+import AboutSection from "./Components/AboutSection";
+import AboutUs from "./pages/aboutUs"; 
 
 function App() {
   return (
     <div className="App">
-      <h1> hello film</h1>
-      <button> Focus that</button>
+       <AboutUs/>
     </div>
   );
 }
