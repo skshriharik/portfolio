@@ -1,4 +1,3 @@
-import react from "react";
 import clock from '../img/clock.svg';
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg"
@@ -42,7 +41,7 @@ const ServicesSection = () => {
             </div>
         </div>
         <div className="image">
-            <img src={home2} />
+            <img src={home2} alt="alternative "/>
         </div>
     </div>
     );
